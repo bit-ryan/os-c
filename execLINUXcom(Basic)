@@ -1,0 +1,11 @@
+#include <stdlib.h>
+
+int main() {
+    system("wc file.txt");   // Word count in file
+    system("clear");         // Clear the terminal
+    system("cal");           // Display calendar
+    system("who");           // Show logged-in users
+    system("date");          // Display current date and time
+    system("pwd");           // Print current working directory
+
+    return 0;
